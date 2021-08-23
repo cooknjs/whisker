@@ -30,26 +30,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`whisker hello`](#whisker-hello)
 * [`whisker help [COMMAND]`](#whisker-help-command)
-
-## `whisker hello`
-
-Describe the command here
-
-```
-USAGE
-  $ whisker hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/hello.js](https://github.com/cooknjs/whisker/blob/v0.1.0/src/commands/hello.js)_
+* [`whisker stir`](#whisker-stir)
 
 ## `whisker help [COMMAND]`
 
@@ -67,4 +49,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
+
+## `whisker stir`
+
+Describe the command here
+
+```
+USAGE
+  $ whisker stir
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/stir.js](https://github.com/cooknjs/whisker/blob/v0.1.0/src/commands/stir.js)_
 <!-- commandsstop -->
