@@ -51,6 +51,11 @@
       "@oclif/plugin-help"
     ]
   },
+  "standard": {
+    "globals": [
+      "describe"
+    ]
+  },
   "repository": "cooknjs/whisker",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
