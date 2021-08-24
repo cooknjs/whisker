@@ -1,10 +1,16 @@
 const { Command, flags } = require('@oclif/command')
 
+const newMitt = '@cooknjs/eggs/mitt'
+const Mitt = require(newMitt)
+
 class HandleCommand extends Command {
   async run() {
     const { flags } = this.parse(HandleCommand)
-    const name = flags.name || 'world'
-    this.log(`hello ${name} from /data/projects/node/cookn/packages/whisker/src/commands/handle.js`)
+
+    if (flags.build) {
+      const server = new Mitt()
+      server.runServer()
+    }
   }
 }
 
@@ -14,7 +20,7 @@ Extra documentation goes here
 `
 
 HandleCommand.flags = {
-  name: flags.string({ char: 'n', description: 'name to print' }),
+  build: flags.boolean({ char: 'b', description: 'Start a static server from your private build' })
 }
 
 module.exports = HandleCommand

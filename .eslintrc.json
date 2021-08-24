@@ -8,13 +8,10 @@
   },
   "extends": [
     "eslint:recommended",
-    "mocha",
-    // "standard",
     "oclif"
   ],
   "plugins": [
-    "mocha",
-    // "standard"
+    "mocha"
   ],
   "parserOptions": {
     "ecmaVersion": 12
@@ -85,7 +82,7 @@
     "lines-between-class-members": "error",
     "max-classes-per-file": "error",
     "max-depth": "error",
-    "max-len": "error",
+    "max-len": "off",
     "max-lines": "error",
     "max-lines-per-function": "error",
     "max-nested-callbacks": "error",
