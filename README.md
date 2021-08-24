@@ -36,7 +36,7 @@ USAGE
 
 ## `whisker handle`
 
-Describe the command here
+Launch a live reload server on your local build
 
 ```
 USAGE
