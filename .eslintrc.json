@@ -1,4 +1,5 @@
 {
+  "root": true,
   "env": {
     "mocha": true,
     "commonjs": true,
@@ -7,12 +8,13 @@
   },
   "extends": [
     "eslint:recommended",
-    "standard",
+    "mocha",
+    // "standard",
     "oclif"
   ],
   "plugins": [
     "mocha",
-    "standard"
+    // "standard"
   ],
   "parserOptions": {
     "ecmaVersion": 12

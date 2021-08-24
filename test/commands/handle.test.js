@@ -1,16 +1,16 @@
 const { expect, test } = require('@oclif/test')
 
-describe('stir', () => {
+describe('handle', () => {
   test
     .stdout()
-    .command(['stir'])
+    .command(['handle'])
     .it('runs hello', ctx => {
       expect(ctx.stdout).to.contain('hello world')
     })
 
   test
     .stdout()
-    .command(['stir', '--name', 'jeff'])
+    .command(['handle', '--name', 'jeff'])
     .it('runs hello --name jeff', ctx => {
       expect(ctx.stdout).to.contain('hello jeff')
     })

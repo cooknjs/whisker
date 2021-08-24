@@ -33,8 +33,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`whisker handle`](#whisker-handle)
 * [`whisker help [COMMAND]`](#whisker-help-command)
 * [`whisker stir`](#whisker-stir)
+
+## `whisker handle`
+
+Describe the command here
+
+```
+USAGE
+  $ whisker handle
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/handle.js](https://github.com/cooknjs/whisker/blob/v0.1.0/src/commands/handle.js)_
 
 ## `whisker help [COMMAND]`
 
